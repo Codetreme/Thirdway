@@ -1,0 +1,568 @@
+/*
+
+Project Name : Busone;
+Desgined By  : Faridul Haque;
+Developed By : AB Belal;
+Date         : 10-Feb-2017
+
+*/
+
+
+/* ==============================================
+==================Large Display==============*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .Modern-Slider .item h3 {
+        width: 100%;
+    }
+    .service_section .pt-23 {
+        padding-top: 5px;
+    }
+    .service_content {
+        padding-left: 15px;
+    }
+    .contact-txt h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .contact-txt:hover .contact-blue-border {
+        width: 20%;
+    }
+}
+
+
+/* ==============================================
+==================Medium Display==============*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .oneNav ul li a {
+        color: #ccc;
+        font-weight: 400;
+    }
+    nav#top-nav {
+        background: #1d2028 none repeat scroll 0 0;
+    }
+    .large-device {
+        display: none;
+    }
+    .small-device {
+        display: block;
+    }
+    .menuzord-menu ul.dropdown {
+        background: rgba(29, 32, 40, 1) none repeat scroll 0 0;
+    }
+    .menuzord-menu ul.dropdown li ul.dropdown {
+        background: rgba(29, 32, 40, 1) none repeat scroll 0 0;
+    }
+    /*.dropdown li {
+        border-top: 1px solid #000 !important;
+    }
+    .oneNav ul li {
+      border: medium none !important;
+      position: relative;
+    }*/
+    .menuzord-menu ul.dropdown li a {
+        color: #ccc;
+    }
+    .Modern-Slider .item h3 {
+        width: 100%;
+    }
+    .slider-tbl .text-left {
+        text-align: center;
+    }
+    .home-slider a {
+        margin: 0 auto;
+    }
+    .single-info {
+        margin: 0 auto;
+        width: 370px;
+    }
+    .blue_border,
+    .green_border,
+    .red_border {
+        margin: 0 auto 30px;
+        width: 370px;
+    }
+    .feature-img {
+        margin: 0 auto;
+    }
+    .business-service-section h1 {
+        width: 90%;
+    }
+    .faq-wrapper {
+        margin-top: 50px;
+    }
+    .contact-section {
+        padding-top: 40px;
+    }
+    .contact-txt {
+        height: 270px;
+    }
+    .contact-txt p.font-weight-500 {
+        margin-bottom: 15px;
+    }
+    .contact-txt h2 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .contact-txt:hover .contact-blue-border {
+        width: 20%;
+    }
+    .contact-form-wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+/* ==============================================
+==================Tab Screen==============*/
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand.logo {
+        padding: 7px 18px;
+    }
+    .menuzord {
+        width: 100%;
+    }
+    .large-device {
+        display: none;
+    }
+    .small-device {
+        display: block;
+    }
+    .indicator i {
+        font-size: 22px;
+        position: absolute;
+        right: 22px;
+        top: 10px;
+    }
+    .menuzord-menu ul.dropdown li a {
+        padding: 4px 22px;
+    }
+    .menuzord-responsive .menuzord-menu li ul.dropdown li .indicator {
+        height: 43px;
+        top: -1px;
+    }
+    .dropdown .indicator i {
+        font-size: 22px;
+        position: absolute;
+        right: 23px;
+        top: 11px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .dropdown > li {
+        border-top: 0 none !important;
+    }
+}
+
+
+/* ==============================================
+=============Medium Mobile Screen==============*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav#top-nav {
+        background: #1d2028 none repeat scroll 0 0;
+    }
+    .menuzord-responsive .menuzord-menu li a {
+        padding: 7px 20px 7px 0;
+    }
+    .oneNav ul li a {
+        border-top: medium none!important;
+    }
+    .menuzord-menu ul.dropdown li a {
+        padding: 7px 22px;
+    }
+    .oneNav ul li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(0, 0, 0, 0.41);
+        line-height: 26px;
+        padding: 5px 14px;
+        color: #ccc;
+        font-weight: 400;
+    }
+    .oneNav ul li:first-child a {
+        border-top: 0px;
+    }
+    .oneNav ul li:last-child a {
+        border-bottom: 0px;
+    }
+    .navbar-brand.logo {
+        line-height: 17px;
+    }
+    .navbar-toggle {
+        border: 1px solid #fff;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff none repeat scroll 0 0;
+    }
+    .navbar-collapse {
+        background: rgba(29, 32, 40, 0.9) none repeat scroll 0 0;
+    }
+    .menuzord-menu ul.dropdown li a {
+        color: #ccc;
+    }
+    .Modern-Slider .item .img-fill .info {
+        height: 550px;
+    }
+    .Modern-Slider .item .img-fill {
+        height: 550px;
+    }
+    .Modern-Slider .item h3 {
+        width: 100%;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .Modern-Slider .item h5 {
+        font-size: 19px;
+        line-height: 28px;
+        margin-top: 8px;
+    }
+    .home-slider a {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 5px 21px;
+        width: 220px;
+    }
+    .slider-tbl .text-left {
+        text-align: center;
+    }
+    .home-slider a {
+        margin: 0 auto;
+    }
+    .section-pb {
+        padding-top: 70px!important;
+    }
+    .service_content.pt-23 {
+        padding-top: 5px;
+    }
+    .info-section {
+        padding-top: 70px;
+    }
+    .single-info {
+        margin: 0 auto;
+        width: 370px;
+    }
+    .blue_border,
+    .green_border,
+    .red_border {
+        margin: 0 auto 30px;
+        width: 370px;
+    }
+    .single-feature {
+        margin: 0 auto;
+        text-align: center;
+        width: 445px;
+    }
+    .green-border,
+    .red-border,
+    .yellow-border,
+    .blue-border {
+        height: 3px;
+        margin: 0 auto 10px;
+        width: 40px;
+    }
+    .feature-img {
+        margin: 0 auto;
+    }
+    .business-service-section {
+        height: 230px;
+    }
+    .business-service-section h1 {
+        width: 100%;
+        font-size: 31px;
+        line-height: 43px;
+    }
+    .faq-section {
+        padding-top: 60px;
+    }
+    .faq-wrapper {
+        margin-top: 50px;
+    }
+    .tesimonial-section {
+        padding-top: 60px;
+    }
+    .single-tesimonial {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 30px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    .contact-section {
+        padding-top: 40px;
+    }
+    .contact-txt {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .contact-txt p.font-weight-500 {
+        margin-bottom: 15px;
+    }
+    .contact-txt h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .contact-txt:hover .contact-blue-border {
+        width: 13%;
+    }
+    .contact-form-wrapper {
+        width: 420px;
+        margin: 0 auto;
+    }
+    .contact-form-wrapper button,
+    .mail_subscription button {
+        font-size: 12px;
+        padding: 13px 25px;
+    }
+    .widget-hedding {
+        margin-bottom: 10px;
+    }
+    .mail_subscription input {
+        width: 350px;
+    }
+    .copyrighttxt {
+        text-align: center;
+    }
+    .social-link.text-right {
+        margin-top: 6px;
+        text-align: center;
+    }
+}
+
+
+/* ==============================================
+============Small Mobile Display==============*/
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+    nav#top-nav {
+        background: #1d2028 none repeat scroll 0 0;
+    }
+    .menuzord-responsive .menuzord-menu li a {
+        padding: 7px 20px 7px 0;
+    }
+    .oneNav ul li a {
+        border-top: medium none !important;
+        color: #ccc;
+        font-weight: 400;
+    }
+    .menuzord-menu ul.dropdown li a {
+        padding: 7px 22px;
+    }
+    .oneNav ul li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(0, 0, 0, 0.41);
+        line-height: 26px;
+        padding: 5px 14px;
+    }
+    .oneNav ul li:first-child a {
+        border-top: 0px;
+    }
+    .oneNav ul li:last-child a {
+        border-bottom: 0px;
+    }
+    .navbar-brand.logo {
+        line-height: 17px;
+    }
+    .navbar-toggle {
+        border: 1px solid #fff;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff none repeat scroll 0 0;
+    }
+    .navbar-collapse {
+        background: rgba(29, 32, 40, 0.9) none repeat scroll 0 0;
+    }
+    .menuzord-menu ul.dropdown li a {
+        color: #ccc;
+    }
+    .Modern-Slider .item .img-fill .info {
+        height: 350px;
+    }
+    .Modern-Slider .item .img-fill {
+        height: 350px;
+    }
+    .Modern-Slider .item h3 {
+        font-size: 24px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .Modern-Slider .item h5 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .home-slider a {
+        border-width: 1px;
+        font-size: 11px;
+        line-height: 23px;
+        padding: 4px 16px;
+        width: 165px;
+    }
+    .Modern-Slider:hover .PrevArrow {
+        left: -8px;
+    }
+    .Modern-Slider:hover .NextArrow {
+        right: -8px;
+    }
+    .slider-tbl .text-left {
+        text-align: center;
+    }
+    .home-slider a {
+        margin: 0 auto;
+    }
+    .section-pb {
+        padding-top: 70px!important;
+        padding-bottom: 40px !important;
+    }
+    /*service section*/
+    .single_service_container {
+        padding: 18px;
+    }
+    .service_image {
+        display: block;
+        width: 100%;
+    }
+    .service_content {
+        display: block;
+        margin-top: 5px;
+        padding-left: 0;
+        vertical-align: initial;
+        width: 100%;
+    }
+    .service_content.pt-23 {
+        padding-top: 5px;
+    }
+    .info-section {
+        padding-top: 70px;
+    }
+    .single-info {
+        margin: 0 auto;
+        width: 270px;
+    }
+    .blue_border,
+    .green_border,
+    .red_border {
+        margin: 0 auto 30px;
+        width: 270px;
+    }
+    .info_txt a {
+        font-size: 15px;
+    }
+    .single-feature {
+        margin: 0 auto;
+        text-align: center;
+        width: 270px;
+    }
+    .single-feature h4 {
+        margin-bottom: 0px;
+    }
+    .green-border,
+    .red-border,
+    .yellow-border,
+    .blue-border {
+        height: 3px;
+        margin: 0 auto 10px;
+        width: 40px;
+    }
+    .feature-img {
+        margin: 0 auto;
+    }
+    .business-service-section {
+        height: 200px;
+    }
+    .business-service-section h1 {
+        font-size: 26px;
+        line-height: 34px;
+        margin: 0 auto 2px;
+        width: 100%;
+    }
+    .faq-section {
+        padding-top: 60px;
+    }
+    .faq-wrapper {
+        margin-top: 50px;
+    }
+    .tesimonial-section {
+        padding-top: 60px;
+    }
+    .faq-wrapper > h3 {
+        font-size: 21px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    .single-tesimonial {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 30px;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .contact-section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .contact-txt {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .contact-txt p.font-weight-500 {
+        margin-bottom: 7px;
+    }
+    .contact-blue-border {
+        height: 2px;
+        margin: 22px auto 0;
+    }
+    .contact-txt h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-txt:hover .contact-blue-border {
+        width: 13%;
+    }
+    .contact-form-wrapper {
+        width: 270px;
+        margin: 0 auto;
+        padding: 20px 20px 30px;
+    }
+    .contact-form-wrapper button,
+    .mail_subscription button {
+        font-size: 12px;
+        padding: 13px 25px;
+    }
+    .footer-widget-section {
+        padding-bottom: 50px;
+        padding-top: 45px;
+    }
+    .single-widget > p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .single-widget a {
+        font-size: 14px;
+        line-height: 24px !important;
+    }
+    .widget-hedding {
+        margin-bottom: 10px;
+    }
+    .mail_subscription input {
+        width: 270px;
+    }
+    .copyrighttxt {
+        text-align: center;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .social-link.text-right {
+        margin-top: 6px;
+        text-align: center;
+    }
+}
